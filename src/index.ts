@@ -2,11 +2,10 @@ import Button from "./components/button/Button";
 import Typography from "./components/typography/Typography";
 import Input from "./components/input/Input";
 import Checkbox from "./components/checkbox/Checkbox";
-import Dialog from "./components/dialog/Dialog";
-import Snackbar from "./components/snackbar/Snackbar";
-import Tooltip from "./components/tooltip/Tooltip";
 
-export { Button, Typography, Input, Checkbox, Dialog, Snackbar, Tooltip };
+import Snackbar from "./components/snackbar/Snackbar";
+
+export { Button, Typography, Input, Checkbox, Snackbar };
 
 export * from "./components/dialog/Dialog";
 export * from "./components/dialog/useDialog";
