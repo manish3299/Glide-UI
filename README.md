@@ -37,6 +37,10 @@ It focuses on **micro-interactions** and **clean developer experience**.
 npm install glide-ui
 ```
 
+```bash
+yarn add glide-ui
+```
+
 ## Usage
 
 ```bash
