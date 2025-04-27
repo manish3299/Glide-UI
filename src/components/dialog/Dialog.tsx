@@ -1,7 +1,7 @@
 import { motion, AnimatePresence } from "framer-motion";
 import React, { ReactNode } from "react";
 
-type DialogProps = {
+export type DialogProps = {
   isOpen: boolean;
   onClose: () => void;
   children: ReactNode;
@@ -45,3 +45,5 @@ export const Dialog = ({ isOpen, onClose, children }: DialogProps) => {
     </AnimatePresence>
   );
 };
+
+export default Dialog;

@@ -21,3 +21,5 @@ export const Stepper: React.FC<StepperProps> = ({ steps, currentStep }) => {
     </div>
   );
 };
+
+export default Stepper;

@@ -31,3 +31,5 @@ export const Table: React.FC<TableProps> = ({ headers, data }) => {
     </table>
   );
 };
+
+export default Table;

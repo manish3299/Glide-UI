@@ -5,7 +5,7 @@ export interface BadgeProps {
   text: string;
 }
 
-export const Badge: React.FC<BadgeProps> = ({ text }) => {
+const Badge: React.FC<BadgeProps> = ({ text }) => {
   return (
     <motion.span
       className="inline-block px-2 py-1 text-xs font-semibold text-white bg-blue-500 rounded-full"
@@ -17,3 +17,4 @@ export const Badge: React.FC<BadgeProps> = ({ text }) => {
     </motion.span>
   );
 };
+export default Badge;

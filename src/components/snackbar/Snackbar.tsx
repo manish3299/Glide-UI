@@ -1,12 +1,12 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-interface SnackbarProps {
+export interface SnackbarProps {
   message: string;
   isVisible: boolean;
 }
 
-const Snackbar: React.FC<SnackbarProps> = ({ message, isVisible }) => {
+export const Snackbar: React.FC<SnackbarProps> = ({ message, isVisible }) => {
   return isVisible ? (
     <motion.div
       className="snackbar"

@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-interface ButtonProps {
+export interface ButtonProps {
   label: string;
   onClick: () => void;
   variant?: "primary" | "secondary";

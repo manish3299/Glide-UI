@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 
-interface CheckboxProps {
+export interface CheckboxProps {
   label: string;
 }
 
-const Checkbox: React.FC<CheckboxProps> = ({ label }) => {
+export const Checkbox: React.FC<CheckboxProps> = ({ label }) => {
   const [checked, setChecked] = useState(false);
 
   const toggleChecked = () => setChecked(!checked);

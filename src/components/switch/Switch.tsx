@@ -22,3 +22,5 @@ export const Switch: React.FC<SwitchProps> = ({ checked, onChange }) => {
     </motion.button>
   );
 };
+
+export default Switch;

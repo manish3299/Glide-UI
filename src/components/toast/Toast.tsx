@@ -30,3 +30,5 @@ export const Toast: React.FC<ToastProps> = ({ message, show, onClose }) => {
     </AnimatePresence>
   );
 };
+
+export default Toast;

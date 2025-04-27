@@ -35,3 +35,5 @@ export const Menu: React.FC<MenuProps> = ({ items }) => {
     </div>
   );
 };
+
+export default Menu;

@@ -17,3 +17,5 @@ export const Slider: React.FC<SliderProps> = ({ value, onChange }) => {
     />
   );
 };
+
+export default Slider;

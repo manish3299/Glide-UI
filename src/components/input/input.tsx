@@ -1,13 +1,13 @@
 import React from "react";
 
-interface InputProps {
+export interface InputProps {
   placeholder: string;
   type: "text" | "password" | "email";
   value: string;
   onChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
 }
 
-const Input: React.FC<InputProps> = ({
+export const Input: React.FC<InputProps> = ({
   placeholder,
   type,
   value,
@@ -23,5 +23,6 @@ const Input: React.FC<InputProps> = ({
     />
   );
 };
+
 
 export default Input;

@@ -1,7 +1,7 @@
 import React, { ReactNode, useRef, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
-type DropdownProps = {
+export type DropdownProps = {
   isOpen: boolean;
   children: ReactNode; // Trigger element should handle its own accessibility attributes (e.g., aria-expanded)
   items: string[];
@@ -107,3 +107,5 @@ export const Dropdown = ({
     </div>
   );
 };
+
+export default Dropdown;

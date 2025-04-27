@@ -1,6 +1,6 @@
 import React from "react";
 
-interface TypographyProps {
+export interface TypographyProps {
   variant: "h1" | "h2" | "h3" | "p";
   children: React.ReactNode;
 }
