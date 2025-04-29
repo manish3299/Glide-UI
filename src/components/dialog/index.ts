@@ -1,1 +1,1 @@
-export { default as Dialog, DialogProps } from "./Dialog";
+export { default as Dialog } from "./Dialog";

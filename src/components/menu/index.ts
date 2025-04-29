@@ -1,1 +1,1 @@
-export { default as Menu, MenuProps } from "./Menu";
+export { default as Menu } from "./Menu";
