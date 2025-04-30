@@ -3,7 +3,7 @@
 **Glide UI** is a headless component library focused on sleek, micro-interaction-driven UI using Framer Motion.
 
 <p align="center">
-  <a href="https://www.npmjs.com/package/glide-ui" target="_blank">
+  <a href="https://www.npmjs.com/package/glide-ui-kit" target="_blank">
     <img alt="npm" src="https://img.shields.io/npm/v/glide-ui?color=brightgreen&label=npm&logo=npm">
   </a>
   <a href="https://github.com/manish3299/glide-ui/blob/main/LICENSE" target="_blank">
