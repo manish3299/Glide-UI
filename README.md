@@ -32,17 +32,17 @@ It focuses on **micro-interactions** and **clean developer experience**.
 ## 📦 Installation
 
 ```bash
-npm install glide-ui
+npm install glide-ui-kit
 ```
 
 ```bash
-yarn add glide-ui
+yarn add glide-ui-kit
 ```
 
 ## Usage
 
 ```bash
-import { Button, Input, Alert } from "glide-ui";
+import { Button, Input, Alert } from "glide-ui-kit";
 
 export default function App() {
   return (
