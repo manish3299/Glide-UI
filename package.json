@@ -1,6 +1,6 @@
 {
   "name": "glide-ui-kit",
-  "private": true,
+  "private": false,
   "type": "module",
   "version": "1.0.0",
   "main": "dist/index.js",
