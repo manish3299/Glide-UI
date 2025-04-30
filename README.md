@@ -9,9 +9,7 @@
   <a href="https://github.com/manish3299/glide-ui/blob/main/LICENSE" target="_blank">
     <img alt="license" src="https://img.shields.io/github/license/manish3299/glide-ui">
   </a>
-  <a href="https://github.com/manish3299/glide-ui/actions" target="_blank">
-    <img alt="build" src="https://img.shields.io/github/actions/workflow/status/manish3299/glide-ui/ci.yml?label=build&logo=github">
-  </a>
+
 </p>
 
 ---
