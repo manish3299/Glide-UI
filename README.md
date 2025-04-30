@@ -107,6 +107,8 @@ Coming soon! (Work in progress 🚧)
 We welcome contributions!
 Please open issues, suggest improvements, or create pull requests.
 
+We welcome contributions from the community! If you'd like to help improve Glide UI Kit, please check out our [contributing guidelines](./CONTRIBUTING.md) to get started.
+
 ## 📜 License
 
 MIT License.
